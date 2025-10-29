@@ -1,0 +1,88 @@
+:root {
+  --primary-color: #dfe0e2;
+  --secondary-color: #a0a0a0;
+  --background-color: #101012;
+  --background-color-alt: #1a1a1eff;
+
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-xxl: 96px;
+}
+
+* {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  height: -webkit-fill-available;
+  min-height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #101212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #343434ff;
+  border-radius: 16px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #474747ff;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#blueButton {
+  background: #2563eb;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+#blueButton:hover {
+  background: #1d4ed8;
+}
+
+#greenButton {
+  background: #059669;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+#greenButton:hover {
+  background: #047857;
+}
+
+.Toastify__progress-bar {
+  background: var(--secondary-color) !important;
+}
