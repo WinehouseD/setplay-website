@@ -751,7 +751,10 @@ export default function SetPlayLandingPage() {
           >
             <PhoneFrame title="Upload a Gig" imageSrc={producerSideScreen} />
             <PhoneFrame title="Pay for a Slot" imageSrc={payForASlotScreen} />
-            <PhoneFrame title="SetClips Feed" imageSrc={setClipsFeedScreen} />
+            <PhoneFrame
+              title="Discover What Others Are Creating"
+              imageSrc={setClipsFeedScreen}
+            />
           </div>
 
           <section
@@ -774,7 +777,7 @@ export default function SetPlayLandingPage() {
                 letterSpacing: "-.005em",
               }}
             >
-              See How It Works
+              Check Out The App
             </h2>
             <div
               style={{
@@ -897,7 +900,7 @@ export default function SetPlayLandingPage() {
                 letterSpacing: "-.005em",
               }}
             >
-              FAQ
+              What People Ask Us
             </h2>
             <div
               style={{
