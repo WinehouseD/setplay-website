@@ -1,0 +1,20 @@
+{
+  "name": "SetPlay &#173; Get Heard. Get Paid.",
+  "short_name": "SetPlay",
+  "description": "SetPlay connects music producers with DJs. Producers pay for verified live plays, DJs earn for every set.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["music", "entertainment", "business"],
+  "icons": [
+    {
+      "src": "./assets/logo.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}

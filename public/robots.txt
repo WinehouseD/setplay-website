@@ -1,0 +1,75 @@
+# https://setplay.ca
+
+User-agent: *
+Allow: /
+
+Sitemap: https://setplay.ca/sitemap.xml
+
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /.env
+Disallow: /vite.config.*
+Disallow: /package.json
+Disallow: /package-lock.json
+
+Disallow: /api/
+
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.map$
+
+User-agent: Googlebot
+Allow: /
+Allow: /*.js$
+Allow: /*.css$
+
+User-agent: Googlebot-Image
+Allow: /og-image.png
+Allow: /assets/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+User-agent: MauiBot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Host: https://setplay.ca
